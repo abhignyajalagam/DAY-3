@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid #000;
+    text-align: center;
+    font-size: 5em;
+    border-radius: 50%;
+    transition: transform .8
+}
+#box1{
+    order: -1;
+    background-color: orange;
+    background-image: url(images.jpg);
+}
+#box2{
+    background-color: green;
+    background-image: url(images.jpg);
+}
+#box3{
+    background-color: pink;
+    background-image: url(images.jpg);
+}
+#box4{
+    background-color: aqua;
+     background-image: url(images.jpg);
+}
+#box5{
+    background-color: blueviolet;
+     background-image: url(images.jpg);
+}
